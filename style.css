@@ -1,0 +1,33 @@
+@import url("");
+html {
+  font-family: "",;
+  color: #424952;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+.logo-etc {
+  align-items: center;
+  width: 100%;
+  background-color: rgb(159, 187, 179);
+}
+
+.grid-view-contents { 
+  align-items:center;
+  background-color: rgb(217, 228, 225);
+} 
+
+
+  .grid-view-contents img {
+    width: 20%;
+    height: auto;
+  }
+  .grid-view-content,
+  .book-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
